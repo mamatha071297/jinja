@@ -20,6 +20,5 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('data_render/',data_render,name='data_render'),
     path('data_member/',data_member,name='data_member'),
 ]
